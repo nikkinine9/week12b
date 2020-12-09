@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="javascript:void(0)">
+        <br>
+        <label>Title</label>
+        <input type="text" id="title-input">
+        <br>
+        <br>
+        <label>Details</label>
+        <textarea id="body-input"></textarea>
+        <br>
+        <br>
+        <input type="submit" id="tweet-submit" value="Send">
+    </form>
+    <br>
+    <div id="text-area"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
